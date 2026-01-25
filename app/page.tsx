@@ -146,9 +146,12 @@ export default function RustChatLanding() {
               <IconCuts.Github />
               <span>GitHub</span>
             </a>
-            <button className="px-5 py-2 rounded-lg text-sm font-semibold bg-gradient-to-r from-accent-purple to-accent-teal text-white hover:opacity-90 transition-all hover:scale-105 active:scale-95 shadow-md shadow-accent-purple/25">
+            <a
+              href="https://app.rustchat.io"
+              className="px-5 py-2 rounded-lg text-sm font-semibold bg-gradient-to-r from-accent-purple to-accent-teal text-white hover:opacity-90 transition-all hover:scale-105 active:scale-95 shadow-md shadow-accent-purple/25 inline-flex items-center"
+            >
               Get Started
-            </button>
+            </a>
           </div>
         </div>
       </header>
@@ -603,7 +606,7 @@ pub async fn login_handler(
             <div>
               <h5 className={`font-bold text-sm mb-4 ${darkMode ? 'text-gray-300' : 'text-gray-700'}`}>Resources</h5>
               <ul className="text-sm space-y-3">
-                <li><a href="#" className="hover:text-accent-teal">Documentation</a></li>
+                <li><a href="https://docs.rustchat.io" className="hover:text-accent-teal">Documentation</a></li>
                 <li><a href="#" className="hover:text-accent-teal">GitHub Repository</a></li>
                 <li><a href="#" className="hover:text-accent-teal">API v1 Spec</a></li>
               </ul>
