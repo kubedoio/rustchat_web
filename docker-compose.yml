@@ -1,0 +1,17 @@
+services:
+  rustchat-web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: rustchat-marketing-site
+    restart: always
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+    networks:
+      - rustchat-network
+
+networks:
+  rustchat-network:
+    driver: bridge
