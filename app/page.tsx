@@ -178,7 +178,7 @@ export default function RustChatLanding() {
                 The Freedom of <span className="text-transparent bg-clip-text bg-gradient-to-r from-accent-teal to-accent-purple">Open Source</span>.
               </h1>
               <p className={`text-xl leading-relaxed max-w-xl ${darkMode ? 'text-gray-400' : 'text-gray-600'}`}>
-                RustChat is the 100% open-source, self-hosted, and Mattermost-compatible chat server. Fast, safe, and built for teams who own their stack.
+                RustChat is the 100% open-source, self-hosted, and Mattermost Mobile App-compatible chat server. Fast, safe, and built for teams who own their stack.
               </p>
 
               <div className="flex flex-wrap gap-4">
@@ -186,13 +186,13 @@ export default function RustChatLanding() {
                   Run RustChat
                 </button>
                 <a href="#how-it-works" className={`px-8 py-4 rounded-xl text-lg font-bold border transition-all hover:bg-opacity-50 ${darkMode ? 'border-gray-700 bg-gray-800 text-white hover:bg-gray-700' : 'border-gray-200 bg-gray-50 text-gray-900 hover:bg-gray-100'}`}>
-                  Connect Mattermost App
+                  Connect Mattermost Mobile App
                 </a>
               </div>
 
               <ul className="space-y-3 pt-6">
                 {[
-                  "Works with original Mattermost apps (iOS/Android)",
+                  "Works with original Mattermost Mobile App (iOS/Android)",
                   "Written in high-performance Async Rust (Axum, Tokio)",
                   "Built-in Playbooks for incident response",
                   "No feature gates, no cloud lock-in, forever free"
@@ -243,7 +243,7 @@ export default function RustChatLanding() {
                         <span className="text-[10px] text-gray-500 uppercase">10:46 AM</span>
                       </div>
                       <p className={`p-4 rounded-2xl rounded-tl-none border ${darkMode ? 'bg-gray-800/50 border-gray-700 text-gray-300' : 'bg-white border-gray-100 text-gray-700 shadow-sm'}`}>
-                        Confirmed! I connected my Mattermost iOS app in seconds. Everything just works. Plus, the Playbook feature is a game changer for our ops.
+                        Confirmed! I connected my Mattermost Mobile App iOS in seconds. Everything just works. Plus, the Playbook feature is a game changer for our ops.
                       </p>
                       <div className="flex gap-2">
                         <span className={`px-2 py-0.5 rounded text-xs border ${darkMode ? 'bg-gray-800 border-gray-700' : 'bg-gray-100 border-gray-200'}`}>👍 12</span>
@@ -256,7 +256,7 @@ export default function RustChatLanding() {
                 {/* Badges Overlay */}
                 <div className="absolute top-1/2 right-4 -translate-y-1/2 flex flex-col gap-3">
                   <div className="px-4 py-2 bg-accent-purple/90 text-white rounded-full text-sm font-bold shadow-lg backdrop-blur-sm transform rotate-3 hover:rotate-0 transition-transform cursor-pointer">
-                    Mattermost Mobile Ready
+                    Mattermost Mobile App Ready
                   </div>
                   <div className="px-4 py-2 bg-emerald-500/90 text-white rounded-full text-sm font-bold shadow-lg backdrop-blur-sm transform -rotate-2 hover:rotate-0 transition-transform cursor-pointer">
                     100% Open Source
@@ -283,8 +283,8 @@ export default function RustChatLanding() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               {[
                 {
-                  title: "Mattermost Compatible",
-                  desc: "Connect the official Mattermost mobile apps to RustChat and keep chatting – no new client needed.",
+                  title: "Mattermost Mobile App Compatible",
+                  desc: "Connect the official Mattermost Mobile App to RustChat and keep chatting – no new client needed.",
                   icon: <IconCuts.Mattermost />
                 },
                 {
@@ -337,7 +337,7 @@ export default function RustChatLanding() {
                     },
                     {
                       label: "For Enterprise Migrations",
-                      desc: "Drop-in replacement for Mattermost-compatible infrastructure without losing your mobile users or learning new APIs.",
+                      desc: "Drop-in replacement for Mattermost Mobile App-compatible infrastructure without losing your mobile users or learning new APIs.",
                       bullets: ["RBAC support", "S3 Storage", "Audit readiness"]
                     }
                   ].map((useCase, i) => (
@@ -406,7 +406,7 @@ export default function RustChatLanding() {
 
               {[
                 { step: 1, title: "Deploy Server", desc: "Run a single Docker command or K8s chart." },
-                { step: 2, title: "Open Official App", desc: "Use the Mattermost app on iOS or Android." },
+                { step: 2, title: "Open Official App", desc: "Use the Mattermost Mobile App on iOS or Android." },
                 { step: 3, title: "Set Your URL", desc: "Point the app to your RustChat domain." },
                 { step: 4, title: "Start Chatting", desc: "Real-time messages, files, and more." }
               ].map((item, i) => (
@@ -428,7 +428,7 @@ export default function RustChatLanding() {
                 </div>
                 <div className="flex items-center gap-2">
                   <div className="w-2 h-2 rounded-full bg-accent-teal"></div>
-                  <span>Mattermost /api/v4 Compatible</span>
+                  <span>Mattermost Mobile App /api/v4 Compatible</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <div className="w-2 h-2 rounded-full bg-accent-purple"></div>
