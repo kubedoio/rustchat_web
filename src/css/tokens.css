@@ -1,0 +1,59 @@
+:root {
+  /* Colors */
+  --color-surface-bright: #f9f9f8;
+  --color-surface: #f9f9f8;
+  --color-surface-container: #eeeeed;
+  --color-surface-container-low: #f4f4f3;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-variant: #e2e2e2;
+  --color-on-surface: #1a1c1c;
+  --color-on-surface-variant: #57423c;
+  --color-background: #f9f9f8;
+  --color-on-background: #1a1c1c;
+
+  --color-primary: #781f00;
+  --color-primary-container: #9a3412;
+  --color-on-primary: #ffffff;
+  --color-on-primary-container: #ffbda9;
+  --color-primary-fixed: #ffdbd1;
+  
+  --color-secondary: #625e59;
+  --color-on-secondary: #ffffff;
+  --color-secondary-container: #e9e1db;
+  --color-on-secondary-container: #68635f;
+
+  --color-outline: #8b716a;
+  --color-outline-variant: #dec0b7;
+
+  /* Typography */
+  --font-headline: 'Space Grotesk', sans-serif;
+  --font-body: 'Manrope', sans-serif;
+
+  /* Spacing */
+  --spacing-1: 0.25rem;
+  --spacing-2: 0.5rem;
+  --spacing-3: 0.75rem;
+  --spacing-4: 1rem;
+  --spacing-6: 1.5rem;
+  --spacing-8: 2rem;
+  --spacing-12: 3rem;
+  --spacing-16: 4rem;
+  --spacing-20: 5rem;
+  --spacing-24: 6rem;
+  --spacing-32: 8rem;
+
+  /* Other */
+  --border-radius-sm: 4px;
+}
+
+[data-theme="dark"] {
+  /* Controlled Dark Section Overrides */
+  --color-surface: #2f3130;  /* or a very dark stone */
+  --color-on-surface: #f9f9f8;
+  --color-surface-container: #1a1c1c;
+  --color-surface-container-low: #1a1c1c;
+  --color-surface-variant: #4a4642;
+  --color-on-surface-variant: #ccc5c0;
+  --color-outline: #57423c;
+  --color-outline-variant: #4a4642;
+}
