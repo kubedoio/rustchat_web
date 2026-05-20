@@ -92,13 +92,17 @@ export default function RustChatLanding() {
             <div className="rustchat-hero__content">
               <div className="rustchat-hero__version">
                 <span className="rustchat-hero__version-dot"></span>
-                <span className="rustchat-hero__version-text">Stable Release v1.4.0</span>
+                <span className="rustchat-hero__version-text">Public Preview</span>
+                <span className="rustchat-hero__version-text" style={{ opacity: 0.5, marginLeft: '6px', paddingLeft: '6px', borderLeft: '1px solid var(--color-outline-variant)' }}>Open Source Preview</span>
               </div>
               <h1 className="rustchat-hero__title">
-                Self hosted collaboration, <span className="rustchat-text-primary">built for control</span>.
+                Self-hosted collaboration, <span className="rustchat-text-primary">built for control</span>.
               </h1>
               <p className="rustchat-hero__description">
-                RustChat is a minimal team messenger that puts you in the driver's seat. Deploy on your own infrastructure to keep your communication internal while providing a reliable interface. It's open-source, straightforward, and built for teams that value ownership.
+                RustChat is a self-hosted team communication tool for technical teams that want control over their internal conversations. It captures live company signal and forms part of Kubedo’s open-source company memory infrastructure.
+              </p>
+              <p className="rustchat-hero__limitations" style={{ fontSize: '0.9rem', color: 'var(--color-on-surface-variant)', opacity: 0.8, fontStyle: 'italic', marginBottom: 'var(--spacing-12)', marginTop: 'calc(-1 * var(--spacing-6))', lineHeight: '1.4' }}>
+                RustChat is currently available as a public preview for self-hosted evaluation, technical feedback, and early design partner discussions.
               </p>
               <div className="rustchat-hero__actions">
                 <a href="#product-proof" className="rustchat-btn rustchat-btn--primary rustchat-btn--large" style={{ textDecoration: 'none' }}>
@@ -312,7 +316,7 @@ export default function RustChatLanding() {
         <div className="rustchat-container rustchat-footer__inner">
           <div className="rustchat-footer__brand">
             <span className="rustchat-footer__brand-name">RustChat</span>
-            <p className="rustchat-footer__copyright">© 2024 RustChat.</p>
+            <p className="rustchat-footer__copyright">© 2026 RustChat.</p>
           </div>
           <div className="rustchat-footer__links">
             <a href="https://github.com/kubedoio/rustchat" target="_blank" rel="noopener noreferrer" className="rustchat-footer__link">GitHub</a>
